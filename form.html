@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet"  type="text/css" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exercício - Formulário JavaScript. </h1>
+        <form id="myForm" >
+            <input type="number" id="numberA" required placeholder="Campo A">
+            <input type="number" id="numberB" required placeholder="Campo B">
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="validMessage">
+            Formulário válido! Número B é maior que número A.
+        </div>
+        <div id="invalidMessage">
+            Número B deve ser maior que número A para o formulário ser válido.
+        </div>
+    </div>
+    <script src="form.js" ></script>
+</body>
+</html>
